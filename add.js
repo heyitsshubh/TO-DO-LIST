@@ -10,7 +10,7 @@ function addtask(){
         li.innerHTML =  input.value;
         list.appendChild(li);
         let span = document.createElement("span");
-        span.innerHTML = "&#xD7";
+        span.innerHTML = "\u00D7";
         li.appendChild(span);
     }
     input.value = " ";
