@@ -13,6 +13,7 @@ function addtask(){
         span.innerHTML = "&#xD7";
         li.appendChild(span);
     }
+    input.value = " ";
 }
 
 list.addEventListener("click",(e)=>{

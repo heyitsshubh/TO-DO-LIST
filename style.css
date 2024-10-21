@@ -7,7 +7,7 @@
 
 .container {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background:  linear-gradient(135deg,   #0000ff, #ee82ee);
     padding: 10px;
 }
@@ -69,7 +69,6 @@ ul li::before{
     position : absolute;
     background-image:url(img/uncheck.png);
     background-size: cover;
-    background-position: center;
     height: 28px;
     width: 28px;
     border-radius: 50%;
