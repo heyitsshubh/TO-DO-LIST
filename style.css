@@ -44,6 +44,7 @@ input {
     background: transparent;
     padding: 10px;
     outline: none;
+    user-select: none;
 }
 
 button {
@@ -104,6 +105,11 @@ ul li span:hover {
     background: blue;
 }
 
+ @media screen and (max-width:480px) {
+   button {
+    padding: 8px 15px;
+   } 
+} 
 
 
 

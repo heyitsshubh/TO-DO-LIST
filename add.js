@@ -2,7 +2,7 @@ const input = document.getElementById("input");
 const list = document.getElementById("list-container");
 
 function addtask(){
-    if(input.value == ''){
+    if(input.value === ""){
         alert('write something');
     }
     else{
@@ -13,7 +13,7 @@ function addtask(){
         span.innerHTML = "\u00D7";
         li.appendChild(span);
     }
-    input.value = " ";
+    input.value = "";
 }
 
 list.addEventListener("click",(e)=>{
@@ -24,4 +24,4 @@ list.addEventListener("click",(e)=>{
     else if(e.target.tagName === "SPAN"){
         e.target.parentElement.remove();
     }
-},false);
+},);
